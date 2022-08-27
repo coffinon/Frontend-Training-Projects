@@ -1,0 +1,95 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    font-style: italic;
+}
+
+#hero {
+    height: 300px;
+    background-image: url("images/krakow.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+#hero-title {
+    background: #260F26;
+}
+
+#hero-description {
+    background: #251F47;
+}
+
+#activities {
+    background: #86CB92;
+    padding-top: 10px;
+    color: #404E7C;
+}
+
+#activities-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-element {
+    padding: 30px;
+    width: 300px;
+}
+
+.activities-element:hover {
+    background: #71B48D;
+}
+
+.activities-img {
+    height: 130px;
+    border: 1px solid #260F26;
+    border-radius: 50%;
+}
+
+#guide {
+    margin: 0 auto;
+}
+
+#guide-card {
+    width: 440px;
+    display: flex;
+    background: #404E7C;
+    margin: 40px auto;
+    padding: 10px;
+    border-bottom: 3px solid #251F47;
+    border-radius: 5px;
+    box-shadow: 3px 2px;
+}
+
+#guide-img {
+    width: 140px;
+    border-radius: 5px;
+    box-shadow: 3px 2px;
+}
+
+#guide-text {
+    padding-left: 10px;
+    color: #71B48D;
+    text-shadow: 0 0 1px black;
+}

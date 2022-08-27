@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.otf')
+}
+
+body {
+    margin: 0;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    
+    background: #F4F4F4;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 33px 51px;
+    
+    background: #6943FF;
+    color: #FFFFFF;
+    
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+#header input {
+    width: 117px;
+    height: 83px;
+    margin: 30px auto 0 auto;
+    
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    
+    background: #6943FF;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#header button {
+    width: 117px;
+    height: 42px;
+    margin: 25px auto 0 auto;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+#conversion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: none;
+}
+
+.conversion-window {
+    width: 500px;
+    height: 100px;
+    margin: 20px auto;
+    
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+.conversion-window .conversion-window-header {
+    padding-top: 10px;
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #5A537B;
+}
+
+.conversion-window .conversion-window-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+}
