@@ -1,0 +1,113 @@
+/* HTML and Body section */
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #C6C6C6;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 68px;
+    
+    border-bottom: 1px solid #C6C6C6;
+}
+
+header .avatar {
+    padding: 16px;
+}
+
+header .logo {
+    padding: 8px 16px;
+}
+
+/* Post section */
+.post-header {
+    display: flex;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.post-header .avatar {
+    padding: 0 7px 0 0;
+}
+
+.post-header .name {
+    margin: 0;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.post-header .location {
+    margin: 0;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.post-section .post {
+    width: 100%;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 16px 10px 16px 10px;
+}
+
+.post-footer .icon {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.post-footer .icon:hover,
+.post-footer .icon:active {
+    opacity: 0.5;
+}
+
+.post-footer .likes {
+    margin: 8px 0 0 0;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.post-footer .description {
+    margin: 12px 0 0 0;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* Others section */
+.avatar {
+    height: 34px;
+    border-radius: 50%;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.space {
+    height: 25px;
+    background-color: #ededed;
+}
