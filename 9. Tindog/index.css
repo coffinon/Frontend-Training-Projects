@@ -1,0 +1,114 @@
+/* Generic elements */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 550px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Header space */
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.7em;
+}
+
+.header-div .img-profile-icon,
+.header-div .img-chat-icon {
+    width: 2.625em;
+}
+
+.header-div .img-logo {
+    width: 5.25em;
+}
+
+/* Dog section space */
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+.main-div #dog-section {
+    position: relative;
+}
+
+.main-div .img-dog {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%), url(dog3.jpg);
+    border-radius: 1em;
+}
+
+.main-div .dog-info-section {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.main-div .dog-description,
+.main-div .dog-comment {
+    margin: 0;
+    padding: 0 1em 0 0;
+}
+
+.main-div .dog-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #F8F8F8;
+}
+
+.main-div .dog-comment {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #B7B7B7;
+}
+
+.main-div .img-badge {
+    position: absolute;
+    left: 6%;
+    top: 9%;
+    
+    width: 42.5vw;
+    border-radius: 0.625em;
+    transform: rotate(-30deg);
+}
+
+.main-div .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div .btn {
+    margin: 1.5em;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.main-div #btn-cross:hover,
+.main-div #btn-cross:focus {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+.main-div #btn-heart:hover,
+.main-div #btn-heart:focus {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.main-div .buttons img {
+    padding: 1.8em;
+}
+
+.main-div .no-dogs-msg {
+    text-align: center;
+    font-size: 2rem;
+}
