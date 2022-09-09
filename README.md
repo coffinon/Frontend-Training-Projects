@@ -11,3 +11,4 @@ List of all projects here:
 7. Unit-Conversion-App - application letting the user to convert length, volume and mass into different units.
 8. Instagram - instagram clone done to polish up the CSS skills.
 9. Tindog - social media app where you can swipe dogs, uses responsive design and modern JS.
+10. Color-Scheme-Generator - application using RESTful API to fetch colors from the backend and display them on frontend.

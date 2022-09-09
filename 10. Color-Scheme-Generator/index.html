@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="content">
+                <form id="form">
+                    <input id="color-input" type="color">
+                    <select id="select-input">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                    <input id="submit-btn" type="submit" value="Get color scheme">
+                </form>
+            </div>
+        </header>
+        
+        <main>
+            <div class="content">
+                <div id="color-bars">
+                    <!-- Generate color bars here -->
+                </div>
+                <div id="hex-bars">
+                    <!-- Generate hex bars here -->
+                </div>
+            </div>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+/* Generic elements style */
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* Header form style */
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form #color-input,
+form #select-input,
+form #submit-btn {
+    margin: 1.5rem 0;
+    height: 2.625rem;
+    color: #FFFFFF;
+}
+
+form #color-input {
+    margin-left: 1em;
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB;
+}
+
+form #select-input {
+    -webkit-appearance: none;
+    background: #1F293A;
+    background-image: url("images/select-icon.png");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.75em) center;
+    color: #D5D4D8;
+    padding: 0.5em 0.75em;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+form option:checked {
+    font-weight: 600;
+}
+
+form #submit-btn {
+    margin-right: 1rem;
+    padding: 0.75rem;
+    background: #3D4B60;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Main colors display style */
+#color-bars {
+    display: flex;
+}
+
+.color-bar {
+    width: 20%;
+    height: 300px;
+}
+
+#hex-bars {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hex-bar {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #D5D4D8;
+    padding: 1em;
+}
