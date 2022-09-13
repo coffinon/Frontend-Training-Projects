@@ -1,0 +1,55 @@
+/* Generic elements styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.content,
+.inner-content {
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 550px;
+}
+
+.inner-content {
+    max-width: 460px;
+}
+
+/* Header background styling */
+.header-background {
+    height: 208px;
+    background-color: #000000;
+    background-image: url("images/header-image.png");
+    background-size: cover;
+}
+
+/* Header items styling */
+.header-items {
+    height: inherit;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-items h1 {
+    font-weight: 800;
+    font-size: 2.625rem;
+}
+
+.header-items a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.header-items a:hover,
+.header-items a:focus {
+    color: #FEC654;
+}
+
+/* Main page listing styling */
