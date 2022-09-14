@@ -12,6 +12,43 @@
                 <a href="#">My watchlist</a>
             </div>
         </header>
-        <script src="index.js"></script>
+
+        <form id="search-field" class="inner-content search-bar">
+            <input id="form-text" type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+
+        <main class="inner-content">
+            <div id="movies-list">
+                <!-- Generate movies list here -->
+
+                <div class="movie-element">
+                    <img class="movie-poster" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qa6HCwP4Z15l3hpsASz3auugEW6.jpg">
+            
+                    <div class="movie-info">
+                        <div class="movie-info-header">
+                            <h2>Cars</h2>
+                            <img class="star-icon" src="images/star-icon.png">
+                            <p>6.9</p>
+                        </div>
+            
+                        <div class="movie-info-subheader">
+                            <h3>2006</h3>
+                            <h3>Animation, Adventure, Comedy</h3>
+                            <button id="watchlist-add-button"><span></span>Watchlist</button>
+                        </div>
+            
+                        <p class="movie-info-description">Lightning McQueen, a hotshot rookie race car</p>
+                    </div>
+                </div>
+
+                <!-- <div class="start-exploring">
+                    <img src="images/movie-tape-icon.png">
+                    <p>Start Exploring</p>
+                </div> -->
+                
+            </div>
+        </main>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
