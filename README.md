@@ -13,4 +13,5 @@ List of all projects here:
 9. Tindog - social media app where you can swipe dogs, uses responsive design and modern JS.
 10. Color-Scheme-Generator - application using RESTful API to fetch colors from the backend and display them on frontend.
 11. Movie-Watchlist - create your own Movie Watchlist with "The Movie Database API"!
-12. React-Business-Card - first project using React Components
+12. React-Business-Card - first project using React Components.
+13. Travel-Journal - React project with automatic component generation.

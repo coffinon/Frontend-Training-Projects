@@ -1,0 +1,93 @@
+/* Some generic styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header React component styling */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+    padding: 1.25em;
+}
+
+header img {
+    margin-right: 0.5em;
+    width: 1.5em;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/* Card React component styling */
+.card {
+    display: flex;
+    max-width: 550px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.card--image {
+    width: 150px;
+    height: 200px;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--location-div {
+    margin-top: 0.5em;
+}
+
+.card--location,
+.card--location-link,
+.card--date,
+.card--overview {
+    font-size: 0.75rem;
+}
+
+.card--location,
+.card--location-link {
+    margin-left: 0.4em;
+}
+
+.card--location {
+    letter-spacing: 0.17em;
+}
+
+.card--location-link {
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--title,
+.card--date {
+    font-weight: 700;
+}
+
+.card--title {
+    font-size: 1.5rem;
+    margin: 0.6em 0 0 0;
+}
