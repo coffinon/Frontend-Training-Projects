@@ -15,3 +15,4 @@ List of all projects here:
 11. Movie-Watchlist - create your own Movie Watchlist with "The Movie Database API"!
 12. React-Business-Card - first project using React Components.
 13. Travel-Journal - React project with automatic component generation.
+14. Quizzical - React quiz project summing up all basics of React: props, states and custom components
